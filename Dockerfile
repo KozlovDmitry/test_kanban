@@ -1,6 +1,6 @@
 FROM python:3.7
 ENV PYTHONUNBUFFERED 1
-RUN git clone https://github.com/gothinkster/django-realworld-example-app.git /drf_src
+RUN git clone https://github.com/KozlovDmitry/test_kanban.git
 WORKDIR /test_kanban
 RUN cd /test_kanban
 RUN pip install -r requirements.txt
